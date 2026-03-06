@@ -14,7 +14,7 @@ import reactor.core.publisher.Mono;
 @RestController
 @RequestMapping("/reactive/student")
 @RequiredArgsConstructor
-public class StudentController {
+public class StudentController{
 
     private final StudentUseCase studentUseService;
 
