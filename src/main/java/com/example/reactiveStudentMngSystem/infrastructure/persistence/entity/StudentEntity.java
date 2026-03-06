@@ -18,7 +18,9 @@ public class StudentEntity {
     @Id
     private Long id;
     private String name;
+
     private String email;
+    
     private String phone;
 
     @Column("class_id")
