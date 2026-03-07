@@ -17,10 +17,7 @@ import reactor.core.publisher.Mono;
 public class StudentController {
 
     private final StudentUseCase studentUseService;
-
     
-    //Again i am changing code for pull demo
-
     //CREATE
     @PostMapping
     public Mono<ResponseEntity<StudentResponseDto>> createStudent(
